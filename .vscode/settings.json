@@ -1,0 +1,12 @@
+{
+    "cSpell.words": [
+        "dgrijalva",
+        "gonic"
+    ],
+    "tabnine.logEngine": false,
+    "tabnine.disableLineRegex": [
+
+    ],
+    "tabnine.useProxySupport": true,
+    "go.toolsEnvVars": {}
+}

@@ -1,0 +1,11 @@
+go 1.20
+
+use (
+	./Golang/algorithm_book/42_m27b_s83
+	./Golang/algorithm_book/51_reverse_number_m47_s106
+	./Golang/myEcho/courses
+	./Golang/myEcho/courses/1_bluebot/08_JWT/8.1_JWT_Token_From_a_Cookie_Side_Quest
+	./Golang/myEcho/courses/2_krunal_shimpi/16_Echo-restructure
+	./Golang/myEcho/echo
+	./Golang/myGoCourse
+)

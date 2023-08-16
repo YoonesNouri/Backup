@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>HTML and CSS for Complete Beginners: Example 3-6</title>
+
+	<!-- This CSS and font is purely for presentational purposes. -->
+	<link rel="stylesheet" href="css/presentation.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet" />
+
+	<style>
+		* {
+			box-sizing: border-box;
+			text-align: center;
+		}
+
+		.card {
+			color: rgb(20, 41, 58);
+			/* font-family: 'Poppins', sans-serif;
+			font-size: 23px;
+			line-height: 2; */
+			font: 23px/2 'Poppins', sans-serif;
+		}
+
+		.card h1 {
+			font-size: 2em;
+			font-weight: 900;
+			font-style: italic;
+		}
+
+		.card p {
+			color: rgba(20, 41, 58, 0.8);
+		}
+
+		.card a {
+			color: #FF5D00;
+			text-decoration: none;
+		}
+
+		.card a:hover {
+			color: green;
+		}
+
+		.card a:active {
+			color: purple;
+		}
+
+		p span {
+			/* font-size: 0.5em; */
+			/* line-height: .75; */
+			font: 0.5em/2 'Poppins', sans-serif;
+			font-weight: 900;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+	</style>
+</head>
+
+<body>
+	<section class="learn">
+		<!-- Practice area start -->
+
+		<div class="card">
+			<img src="images/example/envelopes-bulk.svg" alt="envelopes-bulk">
+
+			<h1>Let's get in touch</h1>
+
+			<p>
+				9 Augusta Street<br>
+				Fair Lawn, NJ 07410
+			</p>
+
+			<hr>
+
+			<p>
+				<span>email</span><br>
+				<a href="#">chuck@roundhouse.com</a><br>
+			</p>
+
+			<p>
+				<span>phone</span><br>
+				<a href="#">+1-202-555-0125</a>
+			</p>
+		</div>
+
+		<!-- Practice area end -->
+	</section>
+
+	<section class="preview" data-content="lesson 3-6: Styling Text with CSS">
+		<img width="444px" src="images/reference/address.png" alt="Reference image" />
+	</section>
+</body>
+
+</html>
